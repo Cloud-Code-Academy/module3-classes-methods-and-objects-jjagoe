@@ -153,7 +153,7 @@ public with sharing class ClassesObjectsMethods {
         // Loop through the list of scientists' names
         // If the name doesn't contain the letter 'G', skip this iteration
         // Add the name to the result string, followed by a comma
-        String finalString = '';
+        String finalString = ' ';
 
         for (String i : scientistNames){
             if (i.containsIgnoreCase('g')){
