@@ -166,7 +166,7 @@ public with sharing class ClassesObjectsMethods {
             finalString = finalString.removeEnd(',');
         }
     
-        return finalString; // Replace null with the variable you used to store the result
+        return finalString; 
    
     }
      
