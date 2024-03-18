@@ -87,7 +87,7 @@ public with sharing class ClassesObjectsMethods {
         results.add(startWithInput);
         results.add(endsWithInput);
         results.add(containsInput);
-        return results; // Replace null with the variable you used to store the result
+        return results; 
     }
 
     /**
