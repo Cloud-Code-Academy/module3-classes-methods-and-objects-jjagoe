@@ -134,7 +134,7 @@ public with sharing class ClassesObjectsMethods {
             } 
         }
   
-        return results; // Replace null with the variable you used to store the result
+        return results; 
     }
 
     /**
