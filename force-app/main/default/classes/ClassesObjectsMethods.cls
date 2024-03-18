@@ -151,15 +151,28 @@ public with sharing class ClassesObjectsMethods {
         // The variable to store the concatenated string
 
         // Loop through the list of scientists' names
+        // If the name doesn't contain the letter 'G', skip this iteration
+        // Add the name to the result string, followed by a comma
+        String finalString = '';
 
-            // If the name doesn't contain the letter 'G', skip this iteration
-
-            // Add the name to the result string, followed by a comma
+        for (String i : scientistNames){
+            if (i.containsIgnoreCase('g')){
+                finalString += i + ',';
+            }
+        }
 
         // Remove the last comma from the result string
-
-        return null; // Replace null with the variable you used to store the result
+        if (finalString.endsWith(',')) {
+            finalString = finalString.removeEnd(',');
+        }
+    
+        return finalString; // Replace null with the variable you used to store the result
+   
     }
+     
+    
+        
+    
 
     /**
      * Question 6
