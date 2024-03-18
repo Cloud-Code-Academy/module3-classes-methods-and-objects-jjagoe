@@ -60,7 +60,7 @@ public with sharing class ClassesObjectsMethods {
         results.add(strSubString);
         results.add(strLower);
         
-        return results; // Replace null with the variable you used to store the result
+        return results; 
     }
 
     /**
