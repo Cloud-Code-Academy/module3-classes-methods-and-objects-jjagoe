@@ -27,10 +27,10 @@
         //return results; 
 
 Integer results = 0;        
- String text = 'Hello World!';
+ String text = 'The quick brown fox jumps over the lazy dog';
 for (Integer i = 0; i < text.length(); i++) {
     String individualCharacter = text.substring(i, i + 1);
-    if (individualCharacter == 'a' || individualCharacter == 'e' || individualCharacter == 'e' || individualCharacter =='o' || individualCharacter =='u'){
+    if (individualCharacter == 'a' || individualCharacter == 'e' || individualCharacter == 'i' || individualCharacter =='o' || individualCharacter =='u'){
         results = results + 1;
     }
     System.debug(individualCharacter);

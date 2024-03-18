@@ -128,8 +128,9 @@ public with sharing class ClassesObjectsMethods {
 
         for (Integer i = 0; i < str.length(); i++) {
             String individualCharacter = str.substring(i, i + 1);
-            if (individualCharacter == 'a' || individualCharacter == 'e' || individualCharacter == 'e' || individualCharacter =='o' || individualCharacter =='u'){
+            if (individualCharacter == 'a' || individualCharacter == 'e' || individualCharacter == 'i' || individualCharacter =='o' || individualCharacter =='u'){
                 results = results + 1;
+               
             } 
         }
   
