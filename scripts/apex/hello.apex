@@ -9,17 +9,32 @@
 //System.debug('Hello World!');
 //System.debug('My name is ' + tempvar);
 
-String input = 'Something else';
+//String input = 'Hello Hello Salesforce Salesforce';
 
-        Boolean startWithInput = input.startsWith('Sales');
-        Boolean endsWithInput = input.endsWith('Force');
-        Boolean containsInput = input.contains('Awesome');
 
-        List<Boolean> results = new List<Boolean>();
-        results.add(startWithInput);
-        results.add(endsWithInput);
-        results.add(containsInput);
-        
+//Set<String> stringSet = new Set<List<String> input();
+
+        //add strings to the set
+       //for(String str : input){
+          //  stringSet.add(str);
+       // }
+
+        //Set<String> splitSentence = new Set<String>{'Hello Hello Salesforce Salesforce'}; 
+        //splitSentence.split(Input);
+       
+        //results.add(splitSentence);
+               
         //return results; 
-        System.debug(results);
+
+Integer results = 0;        
+ String text = 'Hello World!';
+for (Integer i = 0; i < text.length(); i++) {
+    String individualCharacter = text.substring(i, i + 1);
+    if (individualCharacter == 'a' || individualCharacter == 'e' || individualCharacter == 'e' || individualCharacter =='o' || individualCharacter =='u'){
+        results = results + 1;
+    }
+    System.debug(individualCharacter);
+}
+
+        //System.debug(stringSet);
       
