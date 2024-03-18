@@ -9,15 +9,17 @@
 //System.debug('Hello World!');
 //System.debug('My name is ' + tempvar);
 
-String str = 'Hello, Salesforce!';
+String input = 'Something else';
 
-        Integer strLength = str.length();
-        String sIntegerLength = String.valueOf(strLength);
-        String strSubString = str.substring(0, 5);
-        String strLower = str.toLowerCase();
-        System.debug(str);
-        System.debug(sIntegerLength);
-        System.debug(strSubString);
-        System.debug(strLower);
-       // System.debug(str,sIntegerLength,strSubString,strLower);
+        Boolean startWithInput = input.startsWith('Sales');
+        Boolean endsWithInput = input.endsWith('Force');
+        Boolean containsInput = input.contains('Awesome');
+
+        List<Boolean> results = new List<Boolean>();
+        results.add(startWithInput);
+        results.add(endsWithInput);
+        results.add(containsInput);
+        
+        //return results; 
+        System.debug(results);
       

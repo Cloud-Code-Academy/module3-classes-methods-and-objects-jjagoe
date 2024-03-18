@@ -79,7 +79,15 @@ public with sharing class ClassesObjectsMethods {
         
         // Check if the string contains 'Awesome'
         
-        return null; // Replace null with the variable you used to store the result
+        Boolean startWithInput = input.startsWith('Sales');
+        Boolean endsWithInput = input.endsWith('Force');
+        Boolean containsInput = input.contains('Awesome');
+
+        List<Boolean> results = new List<Boolean>();
+        results.add(startWithInput);
+        results.add(endsWithInput);
+        results.add(containsInput);
+        return results; // Replace null with the variable you used to store the result
     }
 
     /**
