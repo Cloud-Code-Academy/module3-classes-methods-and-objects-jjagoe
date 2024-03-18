@@ -49,8 +49,18 @@ public with sharing class ClassesObjectsMethods {
         // In the first position add the string length
         // In the second position add the substring
         // In the third position add the string in lower case
+        String str = 'Hello, Salesforce!';
 
-        return null; // Replace null with the variable you used to store the result
+        Integer strLength = str.length();
+        String strSubString = str.substring(0, 5);
+        String strLower = str.toLowerCase();
+
+        List<String> results = new List<String>();
+        results.add(String.valueOf(strLength));
+        results.add(strSubString);
+        results.add(strLower);
+        
+        return results; // Replace null with the variable you used to store the result
     }
 
     /**
