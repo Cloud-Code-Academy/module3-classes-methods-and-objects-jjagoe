@@ -9,15 +9,19 @@
 //System.debug('Hello World!');
 //System.debug('My name is ' + tempvar);
 
-//String input = 'Hello Hello Salesforce Salesforce';
+String input = 'Hello Hello Salesforce Salesforce';
+String results = ' ';
+Set<String> stringSet = new Set<String>{input};
+List<String> words = input.split(' ');
 
+for(String word : words){
+            stringSet.add(word);
+            
+   }
+            results = String.join(new List<String>(stringSet), ' ');         
+            System.debug(results); 
 
-//Set<String> stringSet = new Set<List<String> input();
-
-        //add strings to the set
-       //for(String str : input){
-          //  stringSet.add(str);
-       // }
+/
 
         //Set<String> splitSentence = new Set<String>{'Hello Hello Salesforce Salesforce'}; 
         //splitSentence.split(Input);
@@ -29,18 +33,4 @@
 
         //System.debug(stringSet);
 
-        String finalString = '';
-        List<String> scientistNames = new List<String>{'Tim Berners-Lee', 'Alan Turing', 'Grace Hopper', 'Donald Knuth', 'Guido van Rossum', 'Ken Thompson', 'Stephen Hawking'};
-            System.debug(scientistNames);
-         
-        for (String i : scientistNames){
-            if (i.containsIgnoreCase('g')){
-                finalString += i + ',';
-                System.debug(finalString);
-            }
-          
-        }      
-         
-            
         
-      

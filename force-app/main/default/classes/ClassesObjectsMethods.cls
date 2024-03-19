@@ -99,14 +99,17 @@ public with sharing class ClassesObjectsMethods {
      */
     public static String removeDuplicateWords(String sentence) {
         // Split the sentence into words
-
         // Create a set to store the unique words
+        Set<String> stringSet = new Set<String>{sentence};
+        List<String> words = sentence.split(' ');
 
         // Add each word to the set
+        for(String word : words){
+            stringSet.add(word);
+        }
 
         // Join the unique words back into a sentence
-
-        // Return the sentence with unique words
+       // Return the sentence with unique words
         return null; // Replace null with the variable you used to store the result
     }
 
