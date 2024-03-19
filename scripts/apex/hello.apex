@@ -9,6 +9,9 @@
 //System.debug('Hello World!');
 //System.debug('My name is ' + tempvar);
 
-Decimal results = 0.0;
-System.debug(Math.pow(3, 4));
-System.debug(Math.abs(System.debug(Math.pow(3, 4))));
+Double randomNumber = Math.random();
+
+        // Scale and shift the random number to fall within the range of 50 to 100
+        Integer scaledNumber = (Integer)(randomNumber * 51) + 50;
+
+        System.debug(scaledNumber);
