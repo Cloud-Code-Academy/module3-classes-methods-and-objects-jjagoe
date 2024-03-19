@@ -175,10 +175,7 @@ public with sharing class ClassesObjectsMethods {
    
     }
      
-    
-        
-    
-
+   
     /**
      * Question 6
      * This method calculates the absolute value of the difference between of two input numbers that are raised to the 2nd power.
@@ -189,12 +186,15 @@ public with sharing class ClassesObjectsMethods {
      */
     public static Double calculateDifferenceOfSquares(Double a, Double b) {
         // Square the input numbers using the Math.pow() function
-
+        Integer squareA = (Integer)Math.pow(a, 2);
+        Integer squareB = (Integer)Math.pow(b, 2);
+        Integer difference = squareA - squareB;
+        
         // Calculate the absolute difference using Math.abs() function
-
         // Return the result
-        return null; // Replace null with the variable you used to store the result
-    }
+        return Math.abs(difference); // Replace null with the variable you used to store the result  
+        
+        }
 
     /**
      * Question 7
