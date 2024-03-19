@@ -108,9 +108,9 @@ public with sharing class ClassesObjectsMethods {
             stringSet.add(word);
         }
 
-        // Join the unique words back into a sentence
+       // Join the unique words back into a sentence
        // Return the sentence with unique words
-        return null; // Replace null with the variable you used to store the result
+        return String.join(new List<String>(stringSet), ' '); // Replace null with the variable you used to store the result
     }
 
     /**
