@@ -9,9 +9,7 @@
 //System.debug('Hello World!');
 //System.debug('My name is ' + tempvar);
 
-Double randomNumber = Math.random();
+Date currentDate;
+currentDate = Date.today();
 
-        // Scale and shift the random number to fall within the range of 50 to 100
-        Integer scaledNumber = (Integer)(randomNumber * 51) + 50;
-
-        System.debug(scaledNumber);
+System.debug(currentDate.format());

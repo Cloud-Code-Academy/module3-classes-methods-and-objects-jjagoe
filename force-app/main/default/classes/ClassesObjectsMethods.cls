@@ -221,11 +221,12 @@ public with sharing class ClassesObjectsMethods {
      */
     public static String getCurrentDate() {
         // Get the todays date
+        Date currentDate;
+        currentDate = Date.today();
 
-        // Format the current date
-
-        // Return the result
-        return null; // Replace null with the variable you used to store the result
+        // Format and return the current date;
+       
+        return currentDate.format(); // Replace null with the variable you used to store the result
     }
 
     /**
