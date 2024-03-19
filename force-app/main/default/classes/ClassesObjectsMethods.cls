@@ -226,7 +226,7 @@ public with sharing class ClassesObjectsMethods {
 
         // Format and return the current date;
        
-        return currentDate.format(); // Replace null with the variable you used to store the result
+        return currentDate.format(); 
     }
 
     /**
