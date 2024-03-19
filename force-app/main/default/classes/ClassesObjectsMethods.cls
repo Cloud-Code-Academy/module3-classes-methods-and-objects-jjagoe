@@ -203,10 +203,14 @@ public with sharing class ClassesObjectsMethods {
      * @return A integer between 50 and 100.
      */
     public static Integer generateRandomNumber() {
+
         // Use Math class to generate number between 50 and 100
+        Double randomNumber = Math.random();
+        // Scale and shift the random number to fall within the range of 50 to 100
+        Integer scaledNumber = (Integer)(randomNumber * 51) + 50;
 
         // Return the random integer
-        return null; // Replace null with the variable you used to store the result
+           return scaledNumber; // Replace null with the variable you used to store the result
     }
 
     /**
