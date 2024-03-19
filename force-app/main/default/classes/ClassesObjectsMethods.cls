@@ -210,7 +210,7 @@ public with sharing class ClassesObjectsMethods {
         Integer scaledNumber = (Integer)(randomNumber * 51) + 50;
 
         // Return the random integer
-           return scaledNumber; // Replace null with the variable you used to store the result
+           return scaledNumber; 
     }
 
     /**
