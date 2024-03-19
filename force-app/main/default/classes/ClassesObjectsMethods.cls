@@ -100,8 +100,9 @@ public with sharing class ClassesObjectsMethods {
     public static String removeDuplicateWords(String sentence) {
         // Split the sentence into words
         // Create a set to store the unique words
-        Set<String> stringSet = new Set<String>{sentence};
+        Set<String> stringSet = new Set<String>();
         List<String> words = sentence.split(' ');
+        String results = ' ';
 
         // Add each word to the set
         for(String word : words){
@@ -110,7 +111,8 @@ public with sharing class ClassesObjectsMethods {
 
        // Join the unique words back into a sentence
        // Return the sentence with unique words
-        return String.join(new List<String>(stringSet), ' '); // Replace null with the variable you used to store the result
+      
+        return String.join(new List<String>(stringSet), ' '); 
     }
 
     /**
