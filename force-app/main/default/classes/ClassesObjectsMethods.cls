@@ -192,7 +192,7 @@ public with sharing class ClassesObjectsMethods {
         
         // Calculate the absolute difference using Math.abs() function
         // Return the result
-        return Math.abs(difference); // Replace null with the variable you used to store the result  
+        return Math.abs(difference); 
         
         }
 
