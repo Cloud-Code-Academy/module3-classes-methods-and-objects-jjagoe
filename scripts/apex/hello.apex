@@ -9,23 +9,15 @@
 //System.debug('Hello World!');
 //System.debug('My name is ' + tempvar);
 
-DateTime now = DateTime.now();
-String dayOfWeek = now.format('EEEE');
-System.debug('****** now: ' + now + ' ' + dayOfWeek);
-System.debug(dayOfWeek);
+Date date1 = Date.newInstance(2023,01,01);
+Date date2 = Date.newInstance(2024,12,31);
+System.debug(date1);
+System.debug(date2);
+Integer date1Year = date1.year();
+Integer date2Year = date2.year();
+System.debug(date1Year);
+System.debug(date2Year);
 
-Map<String, Integer> dayOfWeekMap = new Map<String, Integer>();
-dayOfWeekMap.put('Monday', 1);
-dayOfWeekMap.put('Tuesday',2);
-dayOfWeekMap.put('Wednesday',3);
-dayOfWeekMap.put('Thursday',4);
-dayOfWeekMap.put('Friday',5);
-dayOfWeekMap.put('Saturday',6);
-dayOfWeekMap.put('Sunday',7);
 
-//String dayOfWeekString = 'Tuesday';
-Integer dayOfWeekNumber = dayOfWeekMap.get(dayOfWeek);
-//System.debug(String.valueOf(dayOfWeekNumber));
-System.debug(dayOfWeekNumber);
-//System.debug(dayOfWeekMap);
-
+Integer YearDifference = date2Year - date1Year;
+System.debug(YearDifference);

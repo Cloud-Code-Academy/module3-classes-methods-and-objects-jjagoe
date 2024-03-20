@@ -270,8 +270,10 @@ public with sharing class ClassesObjectsMethods {
     public static Integer calculateYearDifference(Date d1, Date d2) {
 
         // Subtract the difference in years
+        Integer date1Year = d1.year();
+        Integer date2Year = d2.year();
 
-        return null; // Replace null with the variable you used to store the result
+        return date2Year - date1Year; // Replace null with the variable you used to store the result
     }
 
     /**
