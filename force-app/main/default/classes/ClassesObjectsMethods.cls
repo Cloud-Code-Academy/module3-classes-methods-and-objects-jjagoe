@@ -308,7 +308,7 @@ public with sharing class ClassesObjectsMethods {
         // Method that returns the details of the book
         public String getBookDetails() {
             // return A string containing the details of the book in the format "Title: <title>, Author: <author>"
-            return 'Title:' + title + ', ' + 'Author: ' + author;
+            return 'Title: ' + title + ', ' + 'Author: ' + author;
             
         }
     }
@@ -341,16 +341,23 @@ public with sharing class ClassesObjectsMethods {
      */
     public static List<Book> generateBookList(Book myBook1) {
         // Create a list of books
+        List<Book> bookList = new List<Book>();
 
         // Update the title and author of myBook1
+        mybook1.title = 'Harry Potter and the Chamber of Secrets';
+        mybook1.author = 'J.K. Rowling';
 
         // Update the pages for myBook1 to 352
+        mybook1.pages = 352;
 
         // Create a new Book object with title "A Brief History of Time" and author "Stephen Hawking"
+        Book newBook = new Book('A Brief History of Time','Stephen Hawking');
 
         // Update the pages for A Brief History of Time to 256
+        newBook.pages = 256;
 
         // Add the book to the list
+        bookList.add(myBook1);
         
         return null; // Replace null with the variable you used to store the result      
     }
