@@ -254,7 +254,7 @@ public with sharing class ClassesObjectsMethods {
         Integer dayOfWeekNumber = dayOfWeekMap.get(dayOfWeek);
 
         // Return the result as a string
-        return String.valueOf(dayOfWeekNumber); // Replace null with the variable you used to store the result
+        return String.valueOf(dayOfWeekNumber); 
     }
 
 
