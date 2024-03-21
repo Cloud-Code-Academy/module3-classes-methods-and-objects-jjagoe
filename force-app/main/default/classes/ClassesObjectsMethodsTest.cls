@@ -185,7 +185,7 @@ public with sharing class ClassesObjectsMethodsTest {
     }
 
      //UNCOMMENT TEST METHODS BELOW ONCE THE BOOK AND PERSON CLASSES ARE SET UP
-   /*  //UNCOMMENT TEST METHODS BELOW ONCE THE BOOK AND PERSON CLASSES ARE SET UP
+     //UNCOMMENT TEST METHODS BELOW ONCE THE BOOK AND PERSON CLASSES ARE SET UP
     @IsTest
     static void testBookClass() {
         // Initialize a new book instance
@@ -267,7 +267,7 @@ public with sharing class ClassesObjectsMethodsTest {
         intro = testPerson.introduceYourself();
         Assert.areEqual('Hello, my name is Jane Doe and I am 30 years old.', intro, 'The updated introduction should be correctly formatted');
     }
-    */
+    
 
     @IsTest
     static void testPersonDetails() {

@@ -175,9 +175,7 @@ public with sharing class ClassesObjectsMethods {
    
     }
      
-    
-        
-    
+   
 
     /**
      * Question 6
@@ -507,4 +505,3 @@ public with sharing class ClassesObjectsMethods {
        }
         
     }
-//}
