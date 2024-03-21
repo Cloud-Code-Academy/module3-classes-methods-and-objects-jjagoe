@@ -466,9 +466,9 @@ public with sharing class ClassesObjectsMethods {
     public static List<Person> createMultiplePersons(List<String> names, Integer age) {
 
         // Loop through each name in the provided list of names
-            // Create a new Person object for each name
+        // Create a new Person object for each name
 
-            // Add the new Person object to the list of Person objects
+        // Add the new Person object to the list of Person objects
 
             List<Person> persons = new List<Person>();
 
@@ -479,7 +479,7 @@ public with sharing class ClassesObjectsMethods {
             
               
         // Return the list of Person objects
-        return persons; // Replace null with the variable you used to store the result
+        return persons; 
     }
 
 
