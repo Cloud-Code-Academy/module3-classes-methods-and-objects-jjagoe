@@ -389,6 +389,31 @@ public with sharing class ClassesObjectsMethods {
         // Setter method that sets the name of the person
 
         // Setter method that sets the age of the person
+        private String name;
+        private Integer age;
+
+        public Person(String name, Integer age){
+            this.name = name; this.age = age;
+        }
+
+        public String getName(){
+            return this.name;
+        }
+        public String setName(){
+            return this.name = name;
+        }
+
+        public Integer getAge(){
+            return this.age;
+        }
+        public Integer setAge(){
+            return this.age = age;
+        }
+
+        public String introduceYourself() {
+            return 'Hello, my name is ' + this.name + ' and I am ' + this.age + 'years old';
+        }
+
     }
 
     /**
