@@ -467,12 +467,19 @@ public with sharing class ClassesObjectsMethods {
 
         // Loop through each name in the provided list of names
             // Create a new Person object for each name
-            
+
             // Add the new Person object to the list of Person objects
-        
-        
+
+            List<Person> persons = new List<Person>();
+
+            for (String listNames : names){
+                Person newPerson = new Person(listNames, age);
+                persons.add(newPerson);
+            }
+            
+              
         // Return the list of Person objects
-        return null; // Replace null with the variable you used to store the result
+        return persons; // Replace null with the variable you used to store the result
     }
 
 
