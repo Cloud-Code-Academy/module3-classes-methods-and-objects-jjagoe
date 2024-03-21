@@ -396,6 +396,10 @@ public with sharing class ClassesObjectsMethods {
             this.name = name; this.age = age;
         }
 
+        public String introduceYourself() {
+            return 'Hello, my name is ' + this.name + ' and I am ' + this.age + ' years old.';
+        }
+
         public String getName(){
             return this.name;
         }
@@ -410,9 +414,7 @@ public with sharing class ClassesObjectsMethods {
             this.age = age;
         }
 
-        public String introduceYourself() {
-            return 'Hello, my name is ' + this.name + ' and I am ' + this.age + 'years old';
-        }
+       
 
     }
 
