@@ -158,7 +158,7 @@ public with sharing class ClassesObjectsMethods {
         // Loop through the list of scientists' names
         // If the name doesn't contain the letter 'G', skip this iteration
         // Add the name to the result string, followed by a comma
-        String finalString = ' ';
+        String finalString = '';
 
         for (String i : scientistNames){
             if (i.containsIgnoreCase('g')){
@@ -169,13 +169,16 @@ public with sharing class ClassesObjectsMethods {
         // Remove the last comma from the result string
         if (finalString.endsWith(',')) {
             finalString = finalString.removeEnd(',');
-        }
+         }
     
         return finalString; 
    
     }
      
-   
+    
+        
+    
+
     /**
      * Question 6
      * This method calculates the absolute value of the difference between of two input numbers that are raised to the 2nd power.
