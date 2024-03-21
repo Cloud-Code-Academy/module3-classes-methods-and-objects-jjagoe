@@ -162,17 +162,14 @@ public with sharing class ClassesObjectsMethods {
         }
 
         // Remove the last comma from the result string
-        if (finalString.endsWith(',')) {
-            finalString = finalString.removeEnd(',');
-        }
+      //  if (finalString.endsWith(',')) {
+      //      finalString = finalString.removeEnd(',');
+      //  }
     
         return finalString; 
    
     }
-     
-    
-        
-    
+   
 
     /**
      * Question 6
