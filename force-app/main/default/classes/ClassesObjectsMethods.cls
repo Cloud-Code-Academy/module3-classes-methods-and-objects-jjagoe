@@ -451,7 +451,7 @@ public with sharing class ClassesObjectsMethods {
         // Create a new instance of the Person class using the provided name and age
         Person newPerson = new Person(name, age);
         // Return the new instance of the Person class
-        return newPerson; // Replace null with the variable you used to store the result
+        return newPerson; 
     }
 
     /**
