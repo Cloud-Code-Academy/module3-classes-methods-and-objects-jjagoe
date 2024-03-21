@@ -341,10 +341,10 @@ public with sharing class ClassesObjectsMethods {
      */
     public static List<Book> generateBookList(Book myBook1) {
         // Create a list of books
+        
+        // Update the title and author of myBook1
         myBook1.title = 'Harry Potter and the Chamber of Secrets';
         myBook1.author = 'J.K. Rowling';
-
-        // Update the title and author of myBook1
       
         // Update the pages for myBook1 to 352
         myBook1.pages = 352;
